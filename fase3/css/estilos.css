@@ -1,0 +1,28 @@
+/* selector universal */
+* {
+    border:0;
+}
+/* selector etiqueta */ 
+p{
+    color:rgb(238, 8, 104)
+}
+header{ 
+    background-color: rosybrown;
+
+}
+nav{ 
+    background-color: rgb(155, 247, 242);
+}
+section{
+    background-color: rgb(189, 250, 181);
+}
+aside{
+    background-color: teal;
+}
+footer{
+    background-color: thistle;
+}
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
